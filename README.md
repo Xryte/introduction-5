@@ -16,10 +16,10 @@ touch 3.txt
 git add 3.txt
 git commit -m "Добавил 3.txt"
 
-git push -u origin one
+git push --set-upstream
+origin one
 
-git log --oneline --all
-
+git log
 git checkout main
 git checkout -b two
 
@@ -27,8 +27,10 @@ git cherry-pick git200
 git cherry-pick volt200
 git cherry-pick abic200
 
-git push -u origin two
+git push --set-upstream
+origin two
 
+git log
 git checkout main
 git checkout -b three
 
@@ -36,4 +38,5 @@ git cherry-pick git200
 git cherry-pick volt200
 git cherry-pick abic200
 
-git push -u origin three
+git push --set-upstream
+origin three
