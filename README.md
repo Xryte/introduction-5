@@ -1,7 +1,7 @@
 echo "Репозиторий с откатами изменений" > README.md
 git add README.md
 git commit -m "Добавил README.md"
-git push -u origin main
+git push
 
 git checkout -b one
 touch 1.txt
